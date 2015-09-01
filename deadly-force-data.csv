@@ -14,7 +14,7 @@
     <meta http-equiv="content-language" content="en">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://deadlyforce.info/feed" />
     <meta name="csrf-param" content="_csrf">
-    <meta name="csrf-token" content="d2JDV2YtNm1AEm5iD3obCSQIcDFSdFQAE1InLQNiBR0CLxw9K3RVBw==">
+    <meta name="csrf-token" content="YkJnaVhweUUyFlMwaD9PHDMkChktAxA2JicSDx8cOhBbEygHKklBDg==">
     <title>Error (#8) - DEADLY FORCE</title>
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet">
     <script>
@@ -25,7 +25,7 @@
         }
     </script>
     <script src="/assets/theme/global/plugins/pace/pace.min.js" type="text/javascript"></script>
-    <link href="/css/app-9cbb61514ecb045619bcb4e9fffe7084.css" rel="stylesheet">
+    <link href="/css/app-8aca13faae5cb44a6399e0fc2880a964.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.png">
 </head>
 
@@ -97,7 +97,7 @@ var AppLanguage = 'en';
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="/scripts/dist/all-ef604cb92ed589e501ddcd204886eec0.js"></script>
+<script src="/scripts/dist/all-f46fd9c079aec5b3f7eda44e9ee82439.js"></script>
 <!--[if lt IE 9]>
 <script src="/assets/theme/global/plugins/respond.min.js"></script>
 <script src="/assets/theme/global/plugins/excanvas.min.js"></script> 
@@ -105,10 +105,10 @@ var AppLanguage = 'en';
 
 <script>
 var RestApi = {};
-RestApi.key = '219eaad1e5f2dda119902049f91b4ae4';
+RestApi.key = 'c69e8cd1e9d96b8856a0dd2c390c41';
 RestApi.base = 'http://apiorigin.deadlyforce.info/v1/';
 RestApi.routes = {"incident":{"get":"incidents","search":"incidents","all":"incidents\/all","heatmap":"incidents\/heatmap","count":"incidents\/count","visualization":"incidents\/visualization"},"victim":{"get":"victims","search":"victims","races":"victim\/races"},"officer":{"get":"officers","search":"officers"},"agency":{"get":"agency","search":"agencies"},"source":{"suggested":"sources\/suggested","getTitle":"sources\/get-title","deletesuggested":"sources\/suggested","index":"sources"},"location":{"states":"locations\/states"},"visualization":{"create":"visualizations\/create","get":"visualizations","update":"visualizations"}};
-RestApi.token = 'd2JDV2YtNm1AEm5iD3obCSQIcDFSdFQAE1InLQNiBR0CLxw9K3RVBw==';
+RestApi.token = 'YkJnaVhweUUyFlMwaD9PHDMkChktAxA2JicSDx8cOhBbEygHKklBDg==';
 
 var GMaps = { 
     key: 'AIzaSyCOH7q2KDczu-CnIKcD_jVmTcMfcod5SgY',
