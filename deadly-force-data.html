@@ -16,7 +16,7 @@
         <meta http-equiv="content-language" content="en">
                 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://deadlyforce.info/feed"/>
         <meta name="csrf-param" content="_csrf">
-    <meta name="csrf-token" content="Z2J5SDk2LkkjIAgnD08eB14zDnxXZmoBKxsMOENkHHElFywOQHtYIQ==">
+    <meta name="csrf-token" content="WWpTSXh5eW4OWSUDDy4yKQtfah5NTSMdAysYDhJAGAUjLmI4SA0ACQ==">
         <title>Error (#2) - DEADLY FORCE</title>
         <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet">
         <script>
@@ -26,10 +26,30 @@
                 }
             }
         </script>
-        <script src="http://cdn.deadlyforce.info/assets/theme/global/plugins/pace/pace.min.js"
+        <script src="/assets/theme/global/plugins/pace/pace.min.js"
                 type="text/javascript"></script>
-        <link href="http://cdn.deadlyforce.info/css/app-c7bd192fc66932b5963f963318e555c8.css" rel="stylesheet">
-        <link rel="shortcut icon" href="http://cdn.deadlyforce.info/favicon.png">
+        <link href="/assets/theme/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="/assets/theme/global/plugins/simple-line-icons/simple-line-icons.css" rel="stylesheet">
+<link href="/assets/theme/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/assets/theme/global/plugins/uniform/css/uniform.default.css" rel="stylesheet">
+<link href="/assets/theme/admin/pages/css/error.css" rel="stylesheet">
+<link href="/assets/theme/global/css/components.css" rel="stylesheet">
+<link href="/assets/theme/global/css/plugins.css" rel="stylesheet">
+<link href="/assets/theme/sass/admin/layout3/layout.css" rel="stylesheet">
+<link href="/assets/theme/sass/admin/layout3/themes/red-intense.css" rel="stylesheet">
+<link href="/assets/theme/admin/layout3/css/custom.css" rel="stylesheet">
+<link href="/assets/theme/sass/global/custom.css" rel="stylesheet">
+<link href="/assets/theme/global/css/plugins-md.css" rel="stylesheet">
+<link href="/assets/theme/global/plugins/typeahead/typeahead.css" rel="stylesheet">
+<link href="/assets/theme/global/plugins/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet">
+<link href="/assets/theme/admin/pages/css/profile.css" rel="stylesheet">
+<link href="/assets/theme/global/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet">
+<link href="/css/vendor/bootstrap-slider.css" rel="stylesheet">
+<link href="/css/vendor/bootstrap-table/bootstrap-table.css" rel="stylesheet">
+<link href="/css/plugins.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
+<link href="/sass/select2/core.css" rel="stylesheet">
+        <link rel="shortcut icon" href="/favicon.png">
     </head>
 
     <body
@@ -105,21 +125,47 @@
     
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="http://cdn.deadlyforce.info/scripts/dist/all-922168e935fb218ada5e55f422bfa4f1.js"></script>
+<script src="/scripts/vendor/jquery.tr.js"></script>
+<script src="/scripts/i18n.js"></script>
+<script src="/assets/c968e23b/yii.js"></script>
+<script src="/assets/theme/global/plugins/jquery-migrate.min.js"></script>
+<script src="/assets/theme/global/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/assets/theme/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+<script src="/assets/theme/global/plugins/jquery.blockui.min.js"></script>
+<script src="/assets/theme/global/plugins/jquery.cokie.min.js"></script>
+<script src="/assets/theme/global/plugins/uniform/jquery.uniform.min.js"></script>
+<script src="/assets/theme/global/scripts/metronic.js"></script>
+<script src="/assets/theme/admin/layout3/scripts/layout.js"></script>
+<script src="/assets/theme/global/plugins/bootbox/bootbox.min.js"></script>
+<script src="/assets/theme/global/plugins/bootstrap-toastr/toastr.min.js"></script>
+<script src="/scripts/vendor/bloodhound.js"></script>
+<script src="/scripts/vendor/typeahead.jquery.min.js"></script>
+<script src="/scripts/main.js"></script>
+<script src="/scripts/rest-api-url.js"></script>
+<script src="/scripts/api.js"></script>
+<script src="/scripts/incident-view.js"></script>
+<script src="/scripts/subscribe.js"></script>
+<script src="/scripts/vendor/odometer.js"></script>
+<script src="/scripts/google-maps.js"></script>
+<script src="/scripts/homepage.js"></script>
+<script src="/scripts/export.js"></script>
+<script src="/scripts/vendor/masonry.pkgd.min.js"></script>
+<script src="/scripts/html.js"></script>
+<script src="/scripts/map-timeline.js"></script>
     <!--[if lt IE 9]>
-    <script src="http://cdn.deadlyforce.info/assets/theme/global/plugins/respond.min.js"></script>
-    <script src="http://cdn.deadlyforce.info/assets/theme/global/plugins/excanvas.min.js"></script>
+    <script src="/assets/theme/global/plugins/respond.min.js"></script>
+    <script src="/assets/theme/global/plugins/excanvas.min.js"></script>
     <![endif]-->
 
     <script>
         var RestApi = {};
         RestApi.key = 'c69e8cd1e9d96b8856a0dd2c390c41';
-        RestApi.base = 'http://api.deadlyforce.info/v1/';
+        RestApi.base = '/';
         RestApi.routes = {"incident":{"get":"incidents","search":"incidents","all":"incidents\/all","heatmap":"incidents\/heatmap","count":"incidents\/count","visualization":"incidents\/visualization","suggest":"incidents\/suggest"},"victim":{"get":"victims","search":"victims","races":"victim\/races"},"officer":{"get":"officers","search":"officers"},"agency":{"get":"agency","search":"agencies"},"source":{"suggested":"sources\/suggested","getTitle":"sources\/get-title","deletesuggested":"sources\/suggested","index":"sources"},"location":{"states":"locations\/states"},"visualization":{"create":"visualizations\/create","get":"visualizations","update":"visualizations"}};
-        RestApi.token = 'Z2J5SDk2LkkjIAgnD08eB14zDnxXZmoBKxsMOENkHHElFywOQHtYIQ==';
+        RestApi.token = 'WWpTSXh5eW4OWSUDDy4yKQtfah5NTSMdAysYDhJAGAUjLmI4SA0ACQ==';
         
         var GMaps = {
-            key: 'AIzaSyCOH7q2KDczu-CnIKcD_jVmTcMfcod5SgY',
+            key: '',
             callback: function () {
                 $(document).trigger("gmapsapi:loaded");
             }
