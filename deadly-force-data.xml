@@ -16,7 +16,7 @@
         <meta http-equiv="content-language" content="en">
                 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://deadlyforce.info/feed"/>
         <meta name="csrf-param" content="_csrf">
-    <meta name="csrf-token" content="THRIeEU5cE4mQCQsaHchegQSDzUmSkI.FiA6OzZ8Bnp6HiEfLVZFOw==">
+    <meta name="csrf-token" content="QnZ5ZHdGaEISLi0vRXQkEnIvVAARFA97NBk3K0N2HBUzADMyPRUaEA==">
         <title>Error (#2) - DEADLY FORCE</title>
         <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet">
         <script>
@@ -116,7 +116,7 @@
         RestApi.key = 'c69e8cd1e9d96b8856a0dd2c390c41';
         RestApi.base = 'http://api.deadlyforce.info/v1/';
         RestApi.routes = {"incident":{"get":"incidents","search":"incidents","all":"incidents\/all","heatmap":"incidents\/heatmap","count":"incidents\/count","visualization":"incidents\/visualization","suggest":"incidents\/suggest"},"victim":{"get":"victims","search":"victims","races":"victim\/races"},"officer":{"get":"officers","search":"officers"},"agency":{"get":"agency","search":"agencies"},"source":{"suggested":"sources\/suggested","getTitle":"sources\/get-title","deletesuggested":"sources\/suggested","index":"sources"},"location":{"states":"locations\/states"},"visualization":{"create":"visualizations\/create","get":"visualizations","update":"visualizations"}};
-        RestApi.token = 'THRIeEU5cE4mQCQsaHchegQSDzUmSkI.FiA6OzZ8Bnp6HiEfLVZFOw==';
+        RestApi.token = 'QnZ5ZHdGaEISLi0vRXQkEnIvVAARFA97NBk3K0N2HBUzADMyPRUaEA==';
         
         var GMaps = {
             key: 'AIzaSyCOH7q2KDczu-CnIKcD_jVmTcMfcod5SgY',
